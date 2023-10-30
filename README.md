@@ -16,9 +16,9 @@ To fetch the Docker image associated with this project, you'll need to log in to
 1. [Create a Docker Hub account](https://hub.docker.com/signup) if you don't already have one.
 2. Log in to Docker Hub using the `docker login` command:
 
-   ```bash
-   docker login
-   ```
+```bash
+docker login
+```
    
 You will be prompted to enter your Docker Hub credentials.
 
