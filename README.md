@@ -28,26 +28,17 @@ Follow these steps to run this FastAPI project using Docker:
 Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-user/fastapi-docker-project.git
-   cd fastapi-docker-project
+   git clone https://github.com/your-user/docker-project.git
+   cd docker-project
    ```
 
-Execute the following command to build the Docker image of the project:
+Execute the following command to build and run the project:
 
    ```bash
-   docker build -t fastapi-project .
+   docker compose -f docker-compose.yaml up
    ```
-
-Once the Docker image is built, run the container using the following command:
-
-   ```bash
-docker run -p 8000:8000 fastapi-project
-```
 
 This will start the FastAPI application at `http://localhost:8000` in your browser.
-
-## API Documentation
-You can access the FastAPI API documentation by visiting `http://localhost:8000/docs` in your browser once the container is up and running.
 
 ## Contributing
 If you'd like to contribute to this project, feel free to open an issue or submit a pull request. We welcome any suggestions for improvement.
