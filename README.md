@@ -43,7 +43,4 @@ This will start the FastAPI application at `http://localhost:8000` in your brows
 ## Contributing
 If you'd like to contribute to this project, feel free to open an issue or submit a pull request. We welcome any suggestions for improvement.
 
-## License
-This project is licensed under the MIT License. Please see the LICENSE file for more details.
-
 
