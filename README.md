@@ -35,7 +35,7 @@ Clone this repository to your local machine:
 Execute the following command to build and run the project:
 
    ```bash
-   docker compose -f docker-compose.yaml up
+   docker compose -f docker-compose.yaml up --build
    ```
 
 This will start the FastAPI application at `http://localhost:8000` in your browser.
